@@ -1,15 +1,15 @@
-use QuanLyTourDuLich;
+USE QuanLyTourDuLich;
 
-select city.name as 'City name', count(tour.id) as 'Number of tours'
-from city
-join destination d on city.id = d.city_id
-join tour on d.id = tour.destination_id
-group by city.id;
+SELECT city.name AS 'City name', COUNT(tour.id) AS 'Number of tours'
+FROM city
+JOIN destination d ON city.id = d.city_id
+JOIN tour ON d.id = tour.destination_id
+GROUP BY city.id;
 
-select count(id) as 'So tour'
-from tour
-where start_date between '2024-03-01' and '2024-03-31';
+SELECT COUNT(id) AS 'So tour'
+FROM tour
+WHERE start_date BETWEEN '2020-03-01' AND '2020-03-31';
 
-select count(id) as 'So tour'
-from tour
-where end_date between '2024-04-01' and '2024-04-30';
+SELECT COUNT(id) AS 'So tour'
+FROM tour
+WHERE end_date BETWEEN '2020-04-01' AND '2020-04-30';
