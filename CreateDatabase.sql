@@ -115,16 +115,16 @@ CREATE TABLE Bill (
 
 INSERT INTO Bill (tour_id, tourist_id, status)
 VALUES
-    (1, 1, 1), -- Khách hàng 1 đặt tour 1, trạng thái đã thanh toán
-    (2, 2, 0), -- KHÁcH Hàng 2 đặt tour 2, trạng thái chưa thanh toán
-    (3, 3, 1), -- Khách hÀNG 3 đặt tour 3, trạng thái đã thanh toán
-    (4, 4, 1), -- Khách hàng 4 đặt tOUR 4, TRẠng thái đã thanh toán
-    (5, 5, 0), -- Khách hàng 5 đặt tour 5, trạnG ThÁI CHƯa thanh toán
-    (6, 6, 1), -- Khách hàng 6 đặt tour 6, trạng thái đã THAnH tOÁN
-    (7, 7, 1), -- Khách hàng 7 đặt tour 7, trạng thái đã thanh toán
-    (8, 8, 0), -- Khách hàng 8 đặt tour 8, trạng thái chưa thanh toán
-    (9, 9, 1), -- Khách hàng 9 đặt tour 9, trạng thái đã thanh toán
-    (10, 10, 0); -- Khách hàng 10 đặt tour 10, trạng thái chưa thanh toán
+    (1, 1, 1),
+    (2, 2, 0),
+    (3, 3, 1),
+    (4, 4, 1),
+    (5, 5, 0),
+    (6, 6, 1),
+    (7, 7, 1),
+    (8, 8, 0),
+    (9, 9, 1),
+    (10, 10, 0);
 
 
 
